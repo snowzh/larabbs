@@ -21,6 +21,7 @@
 
         <div class="container">
 
+            @yield('layouts._message')
             @yield('content')
 
         </div>
